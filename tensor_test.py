@@ -1,5 +1,5 @@
 #%%
-import torch
+import torch_tt
 import numpy as np
 import math
 #%%
@@ -40,5 +40,5 @@ print(np.transpose(A))
 A = np.array([[1,2],[3,4]])
 print(np.linalg.inv(A))
 # %%
-torch.cuda.is_available()
+torch_tt.cuda.is_available()
 # %%
